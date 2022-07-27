@@ -21,6 +21,10 @@ Basta criar os containers :
 $ docker-compose up --build
 ```
 
+Adicionar sua chave da api, nas variaveis de ambiente  (.env.example). Caso você ainda não tenha uma, basta se cadastrar no site [oficial da aplicação](openweathermap.org) e ter acesso a sua chave privada
+
+Feito isso, basta substituir o valor "API_KEY" no arquivo ".env.env" para sua chave e retirar o ".example" do arquivo de ambiente principal
+
 E ... pronto !
 
 Podemos testar as rotas do app principal :
